@@ -1,4 +1,4 @@
-# Premailer
+# inky-premailer
 Inky + CSS inliner. Simple integration. 
 
 
