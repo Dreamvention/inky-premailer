@@ -47,6 +47,11 @@ $email = $inkyPremailer->render($html, $styles);
 
 echo $email;
 ```
+### How CSS is rendered?
+- First the styles in your html file are rendered.
+- Then if you have added links to CSS, they will be rendered, rewriting styles added eariler. 
+
+This sometimes may be tricky so just stick to one way of adding CSS - on the HTML file or Adding links via php.
 
 ## License
 See the [LICENSE](LICENSE) file for license info (it's the MIT license).
