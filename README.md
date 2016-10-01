@@ -64,7 +64,7 @@ And this is Inky markup
   </row>
 </container>
 ```
-If you want to start right away using inky go (here)[http://foundation.zurb.com/emails/docs/inky.html]
+If you want to start right away using inky go [here](http://foundation.zurb.com/emails/docs/inky.html)
 
 Try the [example](example) or use ready made (templates)[http://foundation.zurb.com/emails/email-templates.html] from Froundation.
 
