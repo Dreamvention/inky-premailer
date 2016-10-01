@@ -28,6 +28,45 @@ $email = $inkyPremailer->render($html);
 
 echo $email;
 ```
+### Inky templating Language
+It's really an awesome thing what ZUBR huys have done with inky. Instead of counting all thos td's and tr's you now have a dosen of tags and a clean markup.
+
+This is HTML that an email uses to be responsive. Madness, right.
+```html
+<table align="center" class="container">
+  <tbody>
+    <tr>
+      <td>
+        <table class="row">
+          <tbody>
+            <tr>
+              <th class="small-12 large-12 columns first last">
+                <table>
+                  <tr>
+                    <th>Put content in me!</th>
+                    <th class="expander"></th>
+                  </tr>
+                </table>
+              </th>
+            </tr>
+          </tbody>
+        </table>
+      </td>
+    </tr>
+  </tbody>
+</table>
+```
+And this is Inky markup
+```html
+<container>
+  <row>
+    <columns>Put content in me!</columns>
+  </row>
+</container>
+```
+If you want to start right away using inky go (here)[http://foundation.zurb.com/emails/docs/inky.html]
+
+Try the [example](example) or use ready made (templates)[http://foundation.zurb.com/emails/email-templates.html] from Froundation.
 
 ### Add links to CSS files
 You can also add links to CSS files either relative to your root folder or with full address.
