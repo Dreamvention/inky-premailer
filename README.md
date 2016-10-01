@@ -1,6 +1,9 @@
 # inky-premailer
 ZURB Inky email templating Language + CssToInlineStyles CSS inliner is the perfect match for creating responsive emails.
 
+### (Example)[Example]
+I made a simple example of how to quickly implement inky-premailer. 
+
 ### Thanks to
 - Thampe for providing php implementation of Foundation for Email parser https://github.com/thampe/inky
 - tijsverkoyen for making such a wonderful class to convert HTML into HTML with inline styles https://github.com/tijsverkoyen/CssToInlineStyles
