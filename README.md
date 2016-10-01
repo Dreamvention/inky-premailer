@@ -6,19 +6,20 @@ Inky + CSS inliner. Simple integration.
 ## Installation
 
 ```
-$ composer require Dreamvention/Premailer
+$ composer require dreamvention/inky-premailer
 ```
 
 ## Usage
 
 ```php
-use Dreamvention\Premailer\Premailer;
+use Dreamvention\InkyPremailer\InkyPremailer;
 
-$premailer = new Premailer();
+$inkyPremailer = new InkyPremailer();
 
 $html = '<html><head><style>body{ background:#ccc; } .hello{ color:red; }</style></head><body><div class="hello">Hello World</div></body></html>';
 
-$email = $premailer->render($html);
+$email = $inkyPremailer->render($html);
+
 echo $email;
 ```
 
