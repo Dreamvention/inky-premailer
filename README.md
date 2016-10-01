@@ -29,7 +29,7 @@ $email = $inkyPremailer->render($html);
 echo $email;
 ```
 ### Inky templating Language
-It's really an awesome thing what ZUBR huys have done with inky. Instead of counting all thos td's and tr's you now have a dosen of tags and a clean markup.
+It's really an awesome thing what ZURB Foundation guys have done with inky. Instead of counting all thos td's and tr's you now have a dosen of tags and a clean markup.
 
 This is HTML that an email uses to be responsive. Madness, right.
 ```html
