@@ -1,5 +1,5 @@
 {
-    "name": "dreamvention/premailer",
+    "name": "dreamvention/inky-premailer",
     "description": "Implementation of Inky + CssToInlineStyles. Create responsive emails on the fly",
     "version":     "1.0.0",
     "license": "MIT",
@@ -11,7 +11,7 @@
     ],
     "autoload": {
         "psr-4": {
-          "Dreamvention\\Premailer\\": "src/"
+          "Dreamvention\\InkyPremailer\\": "src/"
         }
     },
     "require": {

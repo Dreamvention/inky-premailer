@@ -7,13 +7,13 @@
  * 
  */
 
-namespace Dreamvention\Premailer;
+namespace Dreamvention\InkyPremailer;
 
 use Hampe\Inky\Inky;
 use TijsVerkoyen\CssToInlineStyles\CssToInlineStyles;
 use PHPHtmlParser\Dom;
 
-class Premailer
+class InkyPremailer
 {
 	private $gridColumns = 12;
 	private $additionalComponentFactories = [];
