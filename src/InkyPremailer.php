@@ -36,7 +36,7 @@ class InkyPremailer
 		$css = '';
 
 		if($links){
-			// styles can be either an array or a string. 
+			// styles can be only an array . 
 			if(is_array($links)){
 				// add style links provided on render.
 				foreach($links as $link){
