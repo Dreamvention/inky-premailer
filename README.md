@@ -95,7 +95,7 @@ echo $email;
 
 This sometimes may be tricky so just stick to one way of adding CSS - in the HTML template file or adding CSS links via php.
 
-$links and $styles are optional
+`$links` and `$styles` are optional
 
 ## License
 See the [LICENSE](LICENSE) file for license info (it's the MIT license).
