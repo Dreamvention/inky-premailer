@@ -1,0 +1,23 @@
+{
+    "name": "Dreamvention/Premailer",
+    "description": "Implementation of Inky + CssToInlineStyles. Create responsive emails on the fly",
+    "version":     "1.0.0",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dmitriy Zhuk",
+            "email": "dmitriyzhuk@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+          "Dreamvention\\Premailer\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=5.4.0",
+        "tijsverkoyen/css-to-inline-styles": "^2.2",
+        "hampe/inky": "1.3.6.2",
+        "paquettg/php-html-parser": "^1.7"
+    }
+}
