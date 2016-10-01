@@ -1,0 +1,19 @@
+.header {
+    background: #8a8a8a;
+  }
+
+  .header .columns {
+    padding-bottom: 0;
+  }
+
+  .header p {
+    padding-top: 15px;
+  }
+
+  .header .wrapper-inner {
+    padding: 20px;
+  }
+
+  .header .container {
+    background: transparent;
+  }
