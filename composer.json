@@ -1,7 +1,7 @@
 {
     "name": "dreamvention/inky-premailer",
     "description": "Implementation of ZURB Inky + CssToInlineStyles. Compile responsive emails on the fly with ease.",
-    "version":     "1.0.0",
+    "version":     "1.0.1",
     "license": "MIT",
     "authors": [
         {
