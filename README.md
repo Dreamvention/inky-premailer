@@ -40,18 +40,23 @@ $inkyPremailer = new InkyPremailer();
 
 $html = '<html><head><style>body{ background:#ccc; } .hello{ color:red; }</style></head><body><div class="hello">Hello World</div></body></html>';
 
-$styles[] = 'https://cdnjs.cloudflare.com/ajax/libs/foundation-emails/2.2.1/foundation-emails.css';
-$styles[] = 'css/style.css';
+$links = array();
+$links[] = 'css/style.css'; // this will override the styles in the template file.
+$styles = '.header { background:#fff; }'; //this is the final styles that will overwrite all the others.
+$html = file_get_contents('template/basic.html');
 
-$email = $inkyPremailer->render($html, $styles);
+$email = $inkyPremailer->render($html, $links, $styles); 
 
 echo $email;
 ```
 ### How CSS is rendered?
+
 - First the styles in your html file are rendered.
 - Then if you have added links to CSS, they will be rendered, rewriting styles added eariler. 
 
 This sometimes may be tricky so just stick to one way of adding CSS - in the HTML template file or adding CSS links via php.
+
+$links and $styles are optional
 
 ## License
 See the [LICENSE](LICENSE) file for license info (it's the MIT license).
