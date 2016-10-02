@@ -55,7 +55,6 @@ class InkyPremailer
  		}
 
  		$html_styles = $dom->find('style');
-
  		foreach($html_styles as $html_style){
  			$css .= $html_style->innerHtml;
  		}
